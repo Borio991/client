@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: 'client store',
 };
 
-export default function RootLayout({
+export default function Root({
   children,
 }: Readonly<{
   children: React.ReactNode;

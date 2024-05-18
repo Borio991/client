@@ -21,7 +21,7 @@ const getProducts = async (query: Query): Promise<Product[]> => {
       categoryId: query.categoryId,
     },
   });
-  const response = await fetch(Url, { cache: 'no-cache' });
+  const response = await fetch(url, { cache: 'no-cache' });
   return response.json();
 };
 export default getProducts;

@@ -1,5 +1,5 @@
 'use client';
-import { cn } from '@/components/lib/utils';
+import { cn } from '@/lib/utils';
 import React, { MouseEventHandler } from 'react';
 
 interface Props {
