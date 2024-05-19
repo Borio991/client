@@ -27,7 +27,7 @@ function MobileFilter({ colors, sizes }: Props) {
         <Plus size={20} />
       </Button>
       <Dialog open={open} onClose={onClose} as="div" className="relative z-40">
-        {/* <div className="fixed inset-0 flex z-40"></div> */}
+        <div className="fixed inset-0 flex z-40"></div>
         <div className="fixed inset-0 bg-black bg-opacity-25 z-50">
           <DialogPanel className="relative ml-auto w-full h-full max-w-xs py-6 flex flex-col overflow-y-auto bg-white shadow-xl">
             <div className="flex items-center justify-end px-4">
