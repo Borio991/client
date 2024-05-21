@@ -5,7 +5,7 @@ import ProductList from '@/components/ProductList';
 import Container from '@/components/ui/Container';
 
 async function Home() {
-  const billboard = await getBillboards('daa78a71-3f42-4518-bf1e-e6da030a0297');
+  const billboard = await getBillboards('a24c418b-0e4f-4453-bc3f-28807f1ed236');
   const products = await getProducts({ isFeatured: true });
   return (
     <Container className="mb-2 md:mb-6">
